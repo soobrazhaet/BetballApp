@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.BetballApp" parent="Base.Theme.BetballApp" />
+
+    <style name="BottomNavigationViewStyle" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">@color/orange</item>
+    </style>
 </resources>
