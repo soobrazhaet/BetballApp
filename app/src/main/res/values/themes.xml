@@ -9,5 +9,16 @@
 
     <style name="BottomNavigationViewStyle" parent="Widget.Design.BottomNavigationView">
         <item name="android:background">@color/orange</item>
+        <item name="itemTextAppearanceActive">@style/BottomNavItemTextActive</item>
+        <item name="itemTextAppearanceInactive">@style/BottomNavItemTextInactive</item>
     </style>
+
+    <style name="BottomNavItemTextActive" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">30sp</item> <!-- Размер текста для активного элемента -->
+    </style>
+
+    <style name="BottomNavItemTextInactive" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">30sp</item> <!-- Размер текста для неактивных элементов -->
+    </style>
+
 </resources>

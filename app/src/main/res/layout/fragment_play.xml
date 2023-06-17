@@ -5,10 +5,68 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragments.PlayFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello Play Fragment" />
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/playBackgroundImg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/play_background"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_marginTop="359dp"
+            android:layout_width="match_parent"
+            android:layout_height="172dp" >
+
+            <TextView
+                android:id="@+id/playTextTitle"
+                android:layout_width="274dp"
+                android:layout_height="112dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/roboto_bolditalic"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="-12sp"
+                android:text="@string/word_search"
+                android:textColor="@color/white"
+                android:textSize="52sp" />
+
+            <TextView
+                android:id="@+id/playText"
+                android:layout_width="274dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_horizontal|top"
+                android:lineSpacingExtra="1sp"
+                android:translationY="-0.62sp"
+                android:text="@string/find_the_word"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="611dp"
+            android:layout_width="match_parent"
+            android:layout_height="59dp" >
+
+        <Button
+            android:id="@+id/playBtnStart"
+            android:layout_width="281dp"
+            android:layout_height="59dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/start"
+            android:fontFamily="@font/roboto_bolditalic"
+            android:textSize="32sp"
+            android:background="@drawable/rounded_button" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
 
 </FrameLayout>

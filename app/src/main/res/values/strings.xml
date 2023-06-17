@@ -2,4 +2,11 @@
     <string name="app_name">BetballApp</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="word_search">WORD SEARCH</string>
+    <string name="find_the_word">Find the words in the table: slide your finger over the letters to highlight the word</string>
+    <string name="start">START</string>
+    <string name="best_players">THE BEST PLAYERS</string>
+    <string name="in_football_history">IN FOOTBALL HISTORY</string>
+    <string name="large_stories_desc">Football has given us many outstanding players. We have collected the best players of their era who made an incredible contribution to the development of football through their game, achievements and entered the top 5 best football players in the history of football.</string>
 </resources>

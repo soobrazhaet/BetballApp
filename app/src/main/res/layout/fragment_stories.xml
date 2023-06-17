@@ -5,10 +5,121 @@
     android:layout_height="match_parent"
     tools:context=".ui.fragments.StoriesFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello Stories Fragment" />
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageBackground"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stories_background" />
+
+            <TextView
+                android:id="@+id/textBestPlayers"
+                android:layout_marginTop="256dp"
+                android:layout_marginLeft="43dp"
+                android:layout_marginRight="43dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="274dp"
+                android:layout_height="144dp"
+                android:text="@string/best_players"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto_bolditalic"
+                android:lineSpacingExtra="-12sp"
+                android:gravity="center_horizontal|top"
+                android:textSize="52sp"/>
+
+            <TextView
+                android:id="@+id/textInFootballHistory"
+                android:layout_marginTop="360dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="@string/in_football_history"
+                android:textColor="@color/white"
+                android:fontFamily="@font/roboto_mediumitalic"
+                android:gravity="center"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/textLargeDesc"
+                android:layout_marginTop="417dp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginRight="29dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="302dp"
+                android:layout_height="207dp"
+                android:text="@string/large_stories_desc"
+                android:fontFamily="@font/roboto_regular"
+                android:textColor="@color/white"
+                android:lineSpacingExtra="0sp"
+                android:gravity="center_horizontal|top"
+                android:textSize="20sp"/>
+
+            <ImageView
+                android:id="@+id/imageCruyff"
+                android:layout_marginTop="658dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="321dp"
+                android:layout_height="98dp"
+                android:src="@drawable/cruyff_image" />
+
+            <ImageView
+                android:id="@+id/imagePele"
+                android:layout_marginTop="762dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="313dp"
+                android:layout_height="90dp"
+                android:src="@drawable/pele_image" />
+
+            <ImageView
+                android:id="@+id/imageMaradona"
+                android:layout_marginTop="866dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="313dp"
+                android:layout_height="90dp"
+                android:src="@drawable/maradona_image"/>
+
+            <ImageView
+                android:id="@+id/imageGoat"
+                android:layout_marginTop="970dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="313dp"
+                android:layout_height="90dp"
+                android:src="@drawable/goat_image" />
+
+            <ImageView
+                android:id="@+id/imageMessi"
+                android:layout_marginTop="1074dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="313dp"
+                android:layout_height="90dp"
+                android:src="@drawable/messi_image" />
+
+        </RelativeLayout>
+
+    </ScrollView>
 
 </FrameLayout>
