@@ -71,52 +71,62 @@
             <ImageView
                 android:id="@+id/imageCruyff"
                 android:layout_marginTop="658dp"
+                android:clickable="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
                 android:layout_width="321dp"
                 android:layout_height="98dp"
-                android:src="@drawable/cruyff_image" />
+                android:src="@drawable/cruyff_image"
+                android:focusable="true" />
 
             <ImageView
                 android:id="@+id/imagePele"
                 android:layout_marginTop="762dp"
+                android:clickable="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
                 android:layout_width="313dp"
                 android:layout_height="90dp"
-                android:src="@drawable/pele_image" />
+                android:src="@drawable/pele_image"
+                android:focusable="true" />
 
             <ImageView
                 android:id="@+id/imageMaradona"
                 android:layout_marginTop="866dp"
+                android:clickable="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
                 android:layout_width="313dp"
                 android:layout_height="90dp"
-                android:src="@drawable/maradona_image"/>
+                android:src="@drawable/maradona_image"
+                android:focusable="true" />
 
             <ImageView
                 android:id="@+id/imageGoat"
                 android:layout_marginTop="970dp"
+                android:clickable="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
                 android:layout_width="313dp"
                 android:layout_height="90dp"
-                android:src="@drawable/goat_image" />
+                android:src="@drawable/goat_image"
+                android:focusable="true" />
 
             <ImageView
                 android:id="@+id/imageMessi"
                 android:layout_marginTop="1074dp"
+                android:clickable="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
                 android:layout_width="313dp"
                 android:layout_height="90dp"
-                android:src="@drawable/messi_image" />
+                android:src="@drawable/messi_image"
+                android:focusable="true" />
 
         </RelativeLayout>
 
